@@ -1,0 +1,22 @@
+NODES:
+Entry 200 100 entry
+ChamberA 100 200 empty
+Queen 200 200 queen
+ReserveA 300 200 empty
+ChamberB 150 300 empty
+ReserveB 250 300 empty
+Dormitory 200 400 spawn
+
+HALLWAYS:
+Entry ChamberA
+Entry ReserveA
+ChamberA ChamberB
+ReserveA ReserveB
+ChamberB Dormitory
+ReserveB Dormitory
+ReserveB Queen
+ChamberA ReserveB
+
+UNITS:
+black 10
+red 5
